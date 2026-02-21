@@ -28,7 +28,7 @@ function renderTable(data) {
       <td>(${movie.year})</td>
       <td>imdb: ${movie.imdb.toFixed(2)}</td>
     `;
-    tbody.appendChild(row);
+    tbody.append(row);
   });
   
   updateArrow();
